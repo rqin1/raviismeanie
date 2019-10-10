@@ -1,0 +1,78 @@
+<html>
+  <body bgcolor="caccd1">
+      <section class="content-header">
+          <h1>
+            <img src="aiesec.png" alt="Avatar" class="avatar">
+          </h1>
+        </section>
+        <form action="action_page.php" method="post">
+          <div>
+            <table class="table-dark" bgcolor="FFFFFF">
+                <thead>
+                  <tr>
+                    <th scope="col">Ranking</th>
+                    <th scope="col">Portfolio</th>
+                    <th scope="col">Points</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>oGV</td>
+                    <td>100</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>iGT</td>
+                    <td>90</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>oGET</td>
+                    <td>50</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">3</th>
+                      <td>Larry</td>
+                      <td>the Bird</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">3</th>
+                      <td>Larry</td>
+                      <td>the Bird</td>
+                  </tr>
+                </tbody>
+              </table> 
+              <p>
+                  <button onlick="moveSlider()">Click to change the sliders</button>
+                </p>
+                <div id ="mySlider">
+                  <img src="stick.png" alt ="Avatar" class="avatar">
+              </div>
+          </div>
+          <div id="image">
+              <img src="rocket.png" alt="Avatar" class="avatar">
+                <
+          </div>
+        </form> 
+
+      <script>
+      function moveSlider(){
+        var elem = document.getElementById("mySlider");
+
+        var position = 670;
+        var interval = setInterval(moveFrame, 14);
+        function moveFrame(){
+          if (position = 400){
+          clearInterval(interval);
+          } else {
+            position++;
+            elem.style.top = position + 'px';
+            elem.style.left = position + 'px'; 
+          }
+        } 
+      }
+      </script>
+  </body>
+         
+</html>
