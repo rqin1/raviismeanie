@@ -3,11 +3,12 @@
 
 body {
     background-image: url(rocket.jpg);
-    background-size: contain;
-    background-size: 1980px 1960px, cover;
-    -webkit-background-size: cover;
+    background-size: auto 100%;
+    background-position: center;
+    background-position-x: 90px;
+    /* -webkit-background-size: cover; */
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover; 
     background-repeat: no-repeat;
     font-family: Lato; 
     font-weight: 300;
