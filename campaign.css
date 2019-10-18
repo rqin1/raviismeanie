@@ -2,10 +2,10 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 
 body {
-    background-image: url(rocket.jpg);
-    background-size: auto 100%;
+    background-image: url(rocket.png);
+    background-size: 100%, auto;
     background-position: center;
-    background-position-x: 90px;
+    /* background-position-x: 90px; */
     /* -webkit-background-size: cover; */
     -moz-background-size: cover;
     -o-background-size: cover; 
