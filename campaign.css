@@ -5,7 +5,6 @@ body {
     background-image: url(rocket.jpg);
     background-size: 100% 100%;
     background-position: center;
-
     /* -webkit-background-size: cover; */
     -moz-background-size: cover;
     -o-background-size: cover; 
@@ -79,7 +78,8 @@ h2 a {
     display: table;
     padding: 0 20 8em 0;
     padding-right: 00px;
-    max-width: 53%;
+    max-width: 100%;
+    width:53%
 }
 
 .container td, .container th {
@@ -170,11 +170,23 @@ h2 a {
       font-weight: 400; 
       line-height: 18.5714px; 
     }
-
-@media screen and (max-width: 481px){
+.title{
+    margin-top:120px;
+    height: 50px;
+}
+@media screen and (max-width: 800px){
     .container{
         position: absolute;
-        top: 90%;
+        top: 106%;
+        margin-left: 17%;
+        margin-right:auto;
+        width:70%;
+    }
+    .title{
+        margin-top:140px;
+    }
+    h1{
+        font-size:14vw;
     }
 }
        
